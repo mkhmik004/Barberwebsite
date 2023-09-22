@@ -1,0 +1,34 @@
+/**/
+
+/*background section background color*/
+.landingPage-container, .Portfolio,.Contacts{
+    background-color: black;
+    color: white;
+}
+.About, .SericesPricing{
+    background-color: white;
+    color: black;
+
+}
+/*nav bar*/
+/*home page*/
+.face{
+    height:auto;
+    width:40rem
+}
+.logo{
+    height: auto;
+    width: 15rem;
+}
+.nev-bar-container{
+    border: 1px solid red;
+    display: flex;
+    flex:1
+}
+.Home{
+    border: 1px solid red;
+    display: flex;
+}
+
+
+
