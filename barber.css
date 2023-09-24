@@ -11,6 +11,7 @@
 
 }
 /*nav bar*/
+
 /*home page*/
 .face{
     height:auto;
@@ -21,12 +22,12 @@
     width: 15rem;
 }
 .nev-bar-container{
-    border: 1px solid red;
+    border: 1px ;
     display: flex;
     flex:1
 }
 .Home{
-    border: 1px solid red;
+    border: 1px solid;
     display: flex;
 }
 
