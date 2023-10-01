@@ -1,35 +1,58 @@
-/**/
-
-/*background section background color*/
-.landingPage-container, .Portfolio,.Contacts{
-    background-color: black;
+*{
+    background: black;
     color: white;
+    font-family: 38px extra-bold;
+    padding: 0;
+    margin: 0;
 }
-.About, .SericesPricing{
-    background-color: white;
-    color: black;
 
-}
-/*nav bar*/
+/*navigation bar*/
 
-/*home page*/
-.face{
-    height:auto;
-    width:40rem
+section.nev-bar-container{
+    max-height: 320px;
+    display: flex;
+    position: fixed;
 }
-.logo{
+
+img.logo{
+    max-width: 20rem;
     height: auto;
-    width: 15rem;
+    flex: 1;
 }
-.nev-bar-container{
-    border: 1px ;
+div.nav-container{
     display: flex;
-    flex:1
+    flex: 1;
 }
-.Home{
-    border: 1px solid;
+div.nav-container.nav-container-item{
+    flex: 1;
+}
+
+/*front page*/
+section.Home{
+    
+   
+}
+section.header{
     display: flex;
 }
-
-
-
+ul.whyme{
+    background-color: white;
+}
+img.frontPAGEleft{
+    max-width:80vh;
+    height: auto;
+    flex: 2;
+}
+div.frontPAGEright{
+    font-size: xx-large;
+    margin-top: 25%;
+    margin-left: 15%;
+    flex: 1;
+}
+div.frontpage{
+    display: flex;
+}
+div.frontPAGE{
+    margin-left: 100px;
+    ;
+}
