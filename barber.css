@@ -1,58 +1,64 @@
 *{
-    background: black;
+   margin: 0;
+   padding: 0;
+   font-family: 'Sofia Sans Semi Condensed', sans-serif;
+  
+}
+/*landing page*/
+.logo-nev-bar-container{
+    display: flex;
+    background-color:black;
     color: white;
-    font-family: 38px extra-bold;
-    padding: 0;
-    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 1%;
 }
 
-/*navigation bar*/
-
-section.nev-bar-container{
-    max-height: 320px;
+.nev-bar-container{
     display: flex;
-    position: fixed;
-}
-
-img.logo{
-    max-width: 20rem;
-    height: auto;
-    flex: 1;
-}
-div.nav-container{
-    display: flex;
-    flex: 1;
-}
-div.nav-container.nav-container-item{
-    flex: 1;
-}
-
-/*front page*/
-section.Home{
-    
+    background-color:black;
+    color: white;
    
+    
 }
-section.header{
+.nev-bar-container-item{
+   margin: 29px;
+}
+.frontpage{
     display: flex;
+    background-color:black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+   
+    
 }
-ul.whyme{
-    background-color: white;
+
+.front-left-letters{
+    font-size: 2.5rem;
+    justify-content: center;
+    margin: 2%;
 }
-img.frontPAGEleft{
-    max-width:80vh;
+img.front-right-img{
+    width: 28rem;
     height: auto;
-    flex: 2;
+    margin-inline: 8%;
+    
 }
-div.frontPAGEright{
-    font-size: xx-large;
-    margin-top: 25%;
-    margin-left: 15%;
-    flex: 1;
+img.logo-container{
+    width: 10rem;
+    height: auto;
 }
-div.frontpage{
+div.whyme{
     display: flex;
+    flex-wrap: wrap;
+    margin-top:1rem ;
+    margin-bottom: 1rem;
+    
 }
-div.frontPAGE{
-    margin-left: 100px;
-    ;
+div.whyme div{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding:2rem;
+    margin: auto;
 }
